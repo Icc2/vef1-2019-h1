@@ -15,11 +15,16 @@ html { /* stylelint-disable-line */
   box-sizing: border-box;
   overflow-x: hidden;
   font-size: 16px;
-  font-family: "Open Sans", helvetica, arial, sans-serif;
-  // TODO more basic settings
+  font-family: $font-main;
 }
 
+main { /* stylelint-disabled-line */
+  max-width: $max-width;
+  margin: 0 auto;
+}
 
-
+img { /* stylelint-disabled-line */
+  max-width: 100%;
+}
 // TODO get all sass files
 @import "scss/...";
