@@ -14,11 +14,12 @@
 html { /* stylelint-disable-line */
   box-sizing: border-box;
   overflow-x: hidden;
-
-  // TODO fleiri grunn stillingar
+  font-size: 16px;
+  font-family: "Open Sans", helvetica, arial, sans-serif;
+  // TODO more basic settings
 }
 
 
 
-// TODO sækja allar sass skrár
+// TODO get all sass files
 @import "scss/...";
