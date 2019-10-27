@@ -4,7 +4,7 @@
     margin-bottom: $gutter * 2;
     &__title {
         font-family: $font-heading;
-        font-size: 3.5rem;
+        font-size: 20rem;
         font-weight: 500;
         margin-bottom: $gutter;       
         text-align: center;
@@ -41,7 +41,7 @@
         margin-right: $gutter * 0.5;
         margin-left: $gutter * 0.5;
     }
-    &__item--active /*&__link*/ {
+    &__item--active &__link {
         display: flex;
         font-size: 1rem;
         margin-right: $gutter * 0.5;
