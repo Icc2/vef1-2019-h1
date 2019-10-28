@@ -1,5 +1,5 @@
 This project was done by Imesha Chaturanga Chareyre and Naouele N. N. F. Mathieu.
-The styles.scss file is created from the styles.scss file that itself refers to button.scss (that takes care of styling the buttons), config.scss (that sets the basic configuration), footer.scss and header.scss (that respectively style the header and footer), products.scss (that styles the way products appear),  section.scss (that takes care of the layout of pictures and text), and staff.scss (that takes care of styling the pictures and descriptions of the staff members).
+The styles.css file is created from the styles.scss file that itself refers to button.scss (that takes care of styling the buttons), config.scss (that sets the basic configuration), footer.scss and header.scss (that respectively style the header and footer), products.scss (that styles the way products appear),  section.scss (that takes care of the layout of pictures and text), and staff.scss (that takes care of styling the pictures and descriptions of the staff members).
 To run the project, node.js must be downloaded, and all the modules mentioned in package.json must also be downloaded (through the command prompt by being located in the project folder and typing "npm install" and "npm run dev")
 
 
