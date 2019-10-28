@@ -1,0 +1,63 @@
+@import "config";
+.form {
+    margin-bottom: $gutter * 2;
+    &__row {
+        @include row;
+        flex-wrap: wrap;
+    }
+    &__col {
+        @include columns(12);
+        margin-bottom: $gutter;
+        @media (min-width: 800px) {
+            @include columns(6);
+        }
+        @media (min-width: $max-width) {
+            @include columns(5);
+            &:last-child {
+                @include offset-left(1);
+            }
+        }
+    }
+    &__fieldset {
+        border: 0;
+    }
+    &__legend {
+        font-family: $font-heading;
+        font-size: 2.5rem;
+        font-weight: 500;
+        margin-bottom: $gutter;
+    }
+    &__field {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 1.125rem;
+        margin-bottom: $gutter;
+        @media (min-width: 800px) {
+            flex-wrap: nowrap;
+        }
+    }
+    &__label {
+        flex: 0 1 150px;
+    }
+    &__input, &__select {
+        flex: 1;
+        font-size: 1rem;
+        font-family: $font-main;
+        padding: 5px;
+        border: 1px solid $color-1;
+        border-radius: 3px;
+    }
+    &__expire {
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+    }
+    &__expire &__label, &__expire &__select {
+        flex: 0;
+        flex-basis: 70px;
+    }
+    &__buy {
+        display: flex;
+        justify-content: center;
+    }
+}
